@@ -1,0 +1,14 @@
+__pycache__
+.idea/
+models/*/output_inference_graph
+models/*/saved_model
+models/*/tflite
+
+*.record
+*.pbtxt
+*.mp4
+*.png
+*.avi
+*.txt
+!train_data/training_video-[1-3].mp4
+!validation_data/validation_video.mp4
